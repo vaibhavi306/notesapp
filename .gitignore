@@ -23,9 +23,14 @@ dist-ssr
 *.sln
 *.sw?
 
-
 # amplify
 node_modules
 .amplify
+
+# Ignore everything that starts with amplify_outputs
 amplify_outputs*
+
+# But do NOT ignore the JSON file
+!amplify_outputs.json
+
 amplifyconfiguration*
